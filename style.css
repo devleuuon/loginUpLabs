@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    background: linear-gradient(45deg, #efeef4 0%, rgb(108, 123, 237) 100%);
+}
+
+label {
+    display: none;
+}
+
+.image img {
+    display: none;
+}
+
+.page {
+    max-width: 43.0rem;
+    margin: auto;
+}
+
+.container {
+    max-width: 39.0rem;
+    margin: 3rem auto;
+    padding: 5rem 3rem;
+    background: white;
+    border-radius: 5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: rgb(65, 62, 62);
+    margin: 3rem 0;
+}
+
+span {
+    color: blue;
+    cursor: pointer;
+}
+
+input {
+    width: 33.0rem;
+    height: 5rem;
+    padding: 2rem;
+    border: none;
+    border-bottom: .2rem solid rgb(163, 163, 167);
+    margin-bottom: 3rem;
+}
+
+input::placeholder {
+    font-size: 1.6rem;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-remember {
+    display: flex;
+    gap: 1rem;
+}
+
+.remember input {
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+}
+
+.remember label {
+    display: block;
+}
+
+.button {
+    background: blue;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 14rem;
+    height: 4rem;
+    border-radius: 5rem;
+    margin: 4rem 0;
+    border: none;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-button {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contact button {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.contact img {
+    width: 1.9rem;
+}
+
+.fb {
+    background: blue;
+}
+
+.tw {
+    background: rgb(114, 170, 222);
+}
+
+.google {
+    background: red;
+}
+
+@media (min-width: 70.0rem) {
+   .page {
+    display: flex;
+    align-items: center;
+    margin-left: 39.0rem;
+   }
+
+   .container {
+    border-radius: 5rem 0 0 5rem;
+   }
+
+    .image img {
+        display: flex;
+        width: 40.0rem;
+        height: 56.2rem;
+        border-radius: 0 5rem 5rem 0;
+    }
+}
